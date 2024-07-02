@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu Nombre - Consultoría y Asesoría de Marca</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Glacial+Indifference:wght@400;700&family=TAN+Nimbus&display=swap');
+        
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            color: #333;
-            background-color: #f5f5f5;
+            font-family: 'Glacial Indifference', sans-serif;
+            color: #0E0326;
+            background-color: #F2F2F2;
         }
         .header {
-            background-color: #0a74da;
-            color: #fff;
+            background-color: #F24976;
+            color: #F2F2F2;
             padding: 20px 0;
             text-align: center;
         }
         .header h1 {
             margin: 0;
             font-size: 2.5em;
+            font-family: 'Playfair Display', serif;
         }
         .header p {
             font-size: 1.2em;
@@ -29,11 +32,11 @@
         .nav {
             display: flex;
             justify-content: center;
-            background-color: #005bb5;
+            background-color: #0E0326;
             padding: 10px 0;
         }
         .nav a {
-            color: #fff;
+            color: #F2F2F2;
             text-decoration: none;
             padding: 0 15px;
             font-size: 1.2em;
@@ -49,10 +52,11 @@
             margin-bottom: 40px;
         }
         .section h2 {
-            border-bottom: 2px solid #0a74da;
+            border-bottom: 2px solid #F24976;
             padding-bottom: 10px;
             font-size: 2em;
-            color: #0a74da;
+            color: #0E0326;
+            font-family: 'Playfair Display', serif;
         }
         .section p {
             line-height: 1.6;
@@ -66,17 +70,18 @@
         .project {
             flex: 1;
             min-width: 300px;
-            background: #fff;
+            background: #FFF;
             border-radius: 8px;
             padding: 15px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .project h3 {
             margin-top: 0;
-            color: #0a74da;
+            color: #F24976;
+            font-family: 'TAN Nimbus', serif;
         }
         .contact-form {
-            background: #fff;
+            background: #FFF;
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -97,8 +102,8 @@
             border-radius: 4px;
         }
         .contact-form button {
-            background-color: #0a74da;
-            color: #fff;
+            background-color: #F2A413;
+            color: #FFF;
             border: none;
             padding: 10px 20px;
             border-radius: 4px;
@@ -106,17 +111,17 @@
             cursor: pointer;
         }
         .contact-form button:hover {
-            background-color: #005bb5;
+            background-color: #F24976;
         }
         footer {
-            background-color: #0a74da;
-            color: #fff;
+            background-color: #F24976;
+            color: #F2F2F2;
             text-align: center;
             padding: 20px 0;
             font-size: 1em;
         }
         footer a {
-            color: #fff;
+            color: #F2F2F2;
             text-decoration: none;
         }
         footer a:hover {
@@ -148,4 +153,39 @@
                     <p>Descripción breve del Proyecto A, destacando los objetivos alcanzados y el impacto positivo para el cliente.</p>
                 </div>
                 <div class="project">
-   
+                    <h3>Proyecto B</h3>
+                    <p>Descripción breve del Proyecto B, con énfasis en los resultados y las innovaciones aplicadas.</p>
+                </div>
+                <div class="project">
+                    <h3>Proyecto C</h3>
+                    <p>Descripción breve del Proyecto C, resaltando los desafíos superados y el valor agregado al cliente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <div class="contact-form">
+                <h2>Envíame un mensaje</h2>
+                <form action="#" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        <p><a href="mailto:tuemail@dominio.com">tuemail@dominio.com</a> | <a href="#">LinkedIn</a> | <a href="#">Twitter</a></p>
+    </footer>
+</body>
+</html>
+
